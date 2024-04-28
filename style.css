@@ -3,6 +3,7 @@
     margin: 0px;
     block-size: border-box;
 }
+/* This is my default setting that allows me to start in a consistent way. The following items I made up as I went along, but it seems to me I should have a way of grouping or organising them so that it is easy to revisit them and know what they each relate to. */
 
 header {
     height: 100px;
@@ -26,7 +27,23 @@ header {
     text-align: center;
     margin-top: 5px;
 }
-.recipes {
+.s1 {
     height: 300px;
     background-color:azure;
+    .rlist {
+        display: flex;
+    }
 }
+.recipe {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    margin: 10px auto;
+}
+.thumb {
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: 5px auto;
+}
+/* I note the different image sizes create a problem with the final thumbnail. Not a big deal at the present time. */
